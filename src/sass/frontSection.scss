@@ -1,0 +1,131 @@
+.front{
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding: 4em;
+    background-image: linear-gradient(#1b6ca7,#42c);
+    color: white;
+    &-title{
+        padding-bottom: 1em;
+    }
+    &-img{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+}
+.front-e{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    align-items: center;
+    padding: 4em;
+    background-image:linear-gradient(#42b,#89223b);
+    color: white;
+    &-title{
+        padding-bottom: 1em;
+    }
+    &-img{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+}   
+.front-d{
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding: 4em;
+    background-image:linear-gradient(#89223b,#9c791d);
+    color: white;
+    &-title{
+        padding-bottom: 1em;
+    }
+    &-img{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+}   
+.front-f{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    align-items: center;
+    padding: 4em;
+    background-image:linear-gradient(#9c791d,#89223b);
+    color: white;
+    &-title{
+        padding-bottom: 1em;
+    }
+    &-img{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+}   
+    
+@media (max-width:640px){
+    .front{
+        display: block;
+        text-align: center;
+        padding: 2em;
+        padding-top: 5em;
+        &-title{
+            padding-bottom: 1em;
+        }
+        &-img{
+           padding-top: 1em;
+        }
+    }
+    .front-e{
+        display: block;
+        text-align: center;
+        padding: 2em;
+        padding-top: 5em;
+        &-title{
+            padding-bottom: 1em;
+        }
+        &-img{
+           padding-top: 1em;
+        }
+    }   
+    .front-d{
+        display: block;
+        text-align: center;
+        padding: 2em;
+        padding-top: 5em;
+        &-title{
+            padding-bottom: 1em;
+        }
+        &-img{
+           padding-top: 1em;
+        }
+    }   
+    .front-f{
+        display: block;
+        text-align: center;
+        padding: 2em;
+        padding-top: 5em;
+        &-title{
+            padding-bottom: 1em;
+        }
+        &-img{
+           padding-top: 1em;
+        }
+    }   
+        
+}
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+      text-transform: uppercase;
+  }

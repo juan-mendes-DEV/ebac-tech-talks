@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>parcel</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="hero">
@@ -12,29 +16,97 @@
             <img src="./img/ebac_logo.svg" alt="logoEbac">
         </div>
         <div class="hero-text">
-            <p class="hero-text-text">
-                O maior evento de tecnologia do Brasil <span class="temp">ja esta disponivel até: 20/12/2023.</span>
+            <p class="hero-text-text neon">
+                O maior evento de tecnologia do Brasil estara disponivel em: 
+                <span id="temp"></span>
+                adquira ja seu ingresso.
             </p>
         </div>
         <div class="buy-ingress">
             <div class="buy-ingress-content">
-                <b>localização</b>
+                <b class="front-title">localização</b>
                 <p>Allianz Parque - Barrafunda -São Paulo</p>
             </div>
             <div class="buy-ingress-content">
-                <b>Preço</b>
+                <b class="front-title">Preço</b>
                 <p>A partir de R$120,00 </p>
             </div>
             <div class="buy-ingress-content">
-                <b>Quando</b>
+                <b class="front-title ">Quando</b>
                 <p>20/12/2023 as 19hrs</p>
             </div>
             <div class="buy-ingress-content">
-                <button class="buy-ingress-content-btn">garantir meu ingresso</button>
+                <button class="buy-ingress-content-btn front-title">garantir meu ingresso</button>
             </div>
         </div>
       </div>
     </header>
+
+    <section class="front">
+       <div data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear">
+        <h1 class="front-title neon">front-end</h1>
+        <p class="front-text">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Reiciendis distinctio obcaecati quibusdam, 
+           perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+           Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Reiciendis distinctio obcaecati quibusdam, 
+           perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+           Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+        </p>
+       </div>
+        <img data-aos="flip-right" data-aos-duration="2000" data-aos-easing="linear" class="front-img" src="./img/frontend.png" alt="front-end">
+    </section>
+    <section class="front-e">
+        <div data-aos="flip-right" data-aos-duration="2000" data-aos-easing="linear">
+            <h1 class="front-title neon">UI/UX</h1>
+            <p class="front-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Reiciendis distinctio obcaecati quibusdam, 
+                perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+                Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Reiciendis distinctio obcaecati quibusdam, 
+                perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+                Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+            </p>
+        </div>
+        <img data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear" class="front-img" src="./img/ui-ux.png" alt="front-end">
+     </section>
+     <section class="front-d">
+        <div data-aos="flip-right" data-aos-duration="2000" data-aos-easing="linear">
+         <h1 class="front-title neon">Data Science</h1>
+         <p class="front-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Reiciendis distinctio obcaecati quibusdam, 
+            perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+            Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Reiciendis distinctio obcaecati quibusdam, 
+            perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+            Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+         </p>
+        </div>
+         <img data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear" class="front-img" src="./img/data.png" alt="front-end">
+     </section>
+     <section class="front-f">
+         <div data-aos="flip-right" data-aos-duration="2000" data-aos-easing="linear">
+             <h1 class="front-title neon">Back-end</h1>
+             <p class="front-text">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Reiciendis distinctio obcaecati quibusdam, 
+                 perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+                 Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Reiciendis distinctio obcaecati quibusdam, 
+                 perspiciatis cupiditate architecto totam repellat tenetur enim beatae.
+                 Dolore fugiat omnis iste illo quam aut eum. Placeat, sunt!
+                </p>
+            </div>
+            <img data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear" class="front-img" src="./img/backend.png" alt="front-end">
+     </section>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
