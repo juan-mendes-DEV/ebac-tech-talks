@@ -14,7 +14,7 @@ const contaAsHoras = setInterval(function(){
        
 
        document.getElementById('temp').innerHTML = 
-       `${Number(diasAteOEvento)}d, ${Number(horasAteOEvento)}h - ${Number(minutosAteOEvento)}m - ${Number(segundosAteOEvento)}s `
+       `${diasAteOEvento}d, ${horasAteOEvento}h - ${minutosAteOEvento}m - ${segundosAteOEvento}s `
 
        if(diasAteOEvento < 0 ){
               clearInterval(contaAsHoras);
