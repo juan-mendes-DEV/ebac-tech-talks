@@ -8,11 +8,11 @@ const contaAsHoras = setInterval(function(){
        const diasEmMs = 1000 * 60 * 60 * 24;
        const horaEmMs = 1000 * 60 * 60;
        const minutosEmMs = 1000 * 60;
-       const distanciaAteOEvento = timesStampDoEvento - timeStamAtual;
-       const diasAteOEvento = Math.floor(distanciaAteOEvento / (diasEmMs));
-       const horasAteOEvento = Math.floor((distanciaAteOEvento % (diasEmMs) / (horaEmMs)));
-       const minutosAteOEvento = Math.floor((distanciaAteOEvento % horaEmMs) / minutosEmMs);
-       const segundosAteOEvento = Math.floor((distanciaAteOEvento % minutosEmMs) / 1000);
+       const distanciaAteOEvento = Number(timesStampDoEvento - timeStamAtual);
+       const diasAteOEvento = Number(Math.floor(distanciaAteOEvento / (diasEmMs)));
+       const horasAteOEvento = Number(Math.floor((distanciaAteOEvento % (diasEmMs) / (horaEmMs))));
+       const minutosAteOEvento = Number(Math.floor((distanciaAteOEvento % horaEmMs) / minutosEmMs));
+       const segundosAteOEvento = Number(Math.floor((distanciaAteOEvento % minutosEmMs) / 1000));
        document.getElementById('temp').innerHTML = 
        `${diasAteOEvento}d, ${horasAteOEvento}h - ${minutosAteOEvento}m - ${segundosAteOEvento}s `
 
